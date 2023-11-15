@@ -29,12 +29,8 @@ svg {
 
 html {
   font-family: 'Manrope', sans-serif;
-  color: var(--spotify-grey);
-  background-color: var(--spotify-black);
-}
-
-h2 {
   color: var(--spotify-white);
+  background-color: var(--spotify-black);
 }
 
 /* center everything */
@@ -107,6 +103,7 @@ body {
 }
 
 .album__artist {
+  color: var(--spotify-grey);
   grid-area: artist;
 }
 
