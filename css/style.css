@@ -27,11 +27,17 @@ svg {
 
 /* global page styles */
 
-html {}
+html {
+    font-family: 'Manrope', sans-serif;
+}
 
 /* center everything */
 
-body {}
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
 
 /*
     Object: Button reset
